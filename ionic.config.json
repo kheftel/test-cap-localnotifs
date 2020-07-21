@@ -1,0 +1,7 @@
+{
+  "name": "test-cap-localnotifs",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
