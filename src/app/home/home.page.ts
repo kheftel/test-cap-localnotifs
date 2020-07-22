@@ -22,7 +22,7 @@ export class HomePage implements OnInit {
     minute?: number
   }, extraTitleText, notifs) {
     notifs.push({
-      title: 'notification id ' + this.notifId + ' ' + extraTitleText,
+      title: 'id ' + this.notifId + ': ' + extraTitleText,
       body: JSON.stringify(on),
       id: this.notifId,
       schedule: {
